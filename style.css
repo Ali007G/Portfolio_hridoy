@@ -76,10 +76,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: rgb(32, 31, 31);
   color: white;
   padding: 2rem 1rem;
-
   position: sticky;
   top: 0;
   z-index: 10;
@@ -87,10 +86,10 @@ header {
 }
 
 .logo-figure {
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 .logo {
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 #menu_icon {
   display: none;
@@ -117,6 +116,7 @@ nav ul li:hover {
 
 /* banner section starts here  */
 .banner {
+  background-color: #685b5b;
   padding: 5rem 1rem;
   display: flex;
   justify-content: center;
@@ -131,9 +131,11 @@ nav ul li:hover {
   display: inline-block;
   background-color: black;
   padding: 1rem;
-  color: #fff;
+  color: #1e6188;
+  font-weight: 600;
   margin-bottom: 1.5rem;
   font-size: 4rem;
+  border-radius: 12px;
 }
 .banner__decription {
   font-size: 1.8rem;
@@ -145,7 +147,7 @@ nav ul li:hover {
 
 .banner__img {
   width: 55rem;
-  height: 55rem;
+  height: 50rem;
   border: 0.3rem solid;
 }
 /* banner section ends here  */
@@ -195,18 +197,21 @@ nav ul li:hover {
 
 .arcsection-heading{
   margin-top: 7rem;
+  margin-bottom: 3rem;
   font-size: 6rem;
   text-align: center;
   font-family: "Italiano", cursive;
 
 }
 .arcsection-center{
+  background-color: burlywood;
   display: flex;
   flex-direction: column;
   min-height: 95vh;
   /* min-height: 100vh; */
   justify-content: space-evenly;
   align-items: center;
+  /* margin-bottom: 3rem; */
 }
 .archieves-container {
   display: flex;
@@ -243,6 +248,9 @@ nav ul li:hover {
 /*blog-posts section starts here  */
 
 .blogsection-heading{
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: rgb(184, 167, 146);
   margin-top: 7rem;
   margin-bottom: 4rem;
   font-size: 6rem;
@@ -250,18 +258,22 @@ nav ul li:hover {
   font-family: "Italiano", cursive;
 }
 .blogsection-center{
+  background-color: rgb(30, 151, 135);
   display: flex;
   flex-direction: column;
   min-height: 95vh;
   /* min-height: 100vh; */
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .blog-posts {
   gap: 2rem;
 }
 .blog-post {
+  border-radius: 5px;
+  border: 2px solid rgb(51, 43, 43);
   width: 70%;
   display: flex;
   margin: 1rem 0;
@@ -300,7 +312,7 @@ nav ul li:hover {
 /*blog-posts section ends here  */
 /*contact section starts here  */
 #contact-section {
-  background-color: #4c4c4c;
+  background-color: #6e5353;
   min-height: 95vh;
 }
 form {
@@ -351,7 +363,6 @@ textarea {
   background-color: #222;
   color: #fff;
   min-height: 5vh;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -379,6 +390,12 @@ textarea {
 
 .footer__icon {
   font-size: 2rem;
+  margin-right: 0.5rem;
+}
+.my-map{
+  border: 2px solid rgb(48, 45, 45);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 /* footer ends here  */
 
